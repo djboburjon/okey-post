@@ -1,0 +1,84 @@
+.modal {
+  display: none;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.9);
+  position: absolute;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+
+.modal.active {
+  display: flex;
+}
+
+.modal_info {
+  padding: 42px 42px 50px 42px;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+
+.modal_info h3 {
+  margin-bottom: 20px;
+  font-size: 24px;
+  font-weight: 700;
+}
+
+.modal_info h4 {
+  margin-bottom: 10px;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.modal_info input {
+  border-radius: 6px;
+  border: 1px solid #C0C9D7;
+  background: #FCFDFF;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+  width: 100%;
+  font-size: 16px;
+}
+
+.modal_info form p {
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  font-weight: 400;
+  margin-bottom: 30px;
+}
+
+.registe_link {
+  text-decoration: none;
+  color: #01CD7D;
+}
+
+.modal_links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal_links-left button {
+  padding: 20px 80px;
+}
+
+.modal_links-right {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.modal_links-right img {
+  width: 50px;
+  cursor: pointer;
+  transition: .2s ease-in-out;
+}
+
+.modal_links-right img:hover {
+  scale: 0.9;
+}

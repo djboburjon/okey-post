@@ -1,0 +1,235 @@
+.facilities {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 50px;
+  margin-bottom: 160px;
+}
+
+.facility img {
+  margin-bottom: 40px;
+  width: 250px;
+  height: 250px;
+}
+
+.facility h3 {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 36px;
+  margin-bottom: 8px;
+}
+
+.facility p {
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 36px;
+  color: #1F2428;
+  margin-bottom: 22px;
+}
+
+.facility_btn {
+  border-radius: 8px;
+  background-color: #41B7E9;
+  color: white;
+  padding: 20px 46px;
+  display: inline-block;
+  cursor: pointer;
+  transition: all .3s ease;
+}
+
+.facility_btn:hover {
+  background-color: #3290b8;
+}
+
+.calcForm {
+  margin-top: 40px;
+  margin-bottom: 160px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+  padding: 50px 35px;
+}
+
+
+.form_sections {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+}
+
+.form_section {
+  width: 20%;
+  margin-bottom: 32px;
+}
+
+.form_section h5 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.form_section .option {
+  display: flex;
+  align-items: center;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #222;
+}
+
+.form_section select,
+.form_section input {
+  padding-left: 15px;
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;
+  border: none;
+  outline: none;
+}
+
+.form_section select {
+  width: 100%;
+}
+
+.form_section input::placeholder {
+  font-size: 16px;
+  font-weight: 300;
+  color: #222;
+}
+
+
+.calcForm button {
+  padding: 20px 60px;
+}
+
+
+.delivery {
+  margin-top: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 12px 30px;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+
+.delivery:last-child {
+  margin-bottom: 160px;
+}
+
+.delivery_title {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+
+.delivery > div {
+  border-right: 1px solid #C0C9D7;
+}
+
+.delivery_date {
+  padding-right: 20px;
+}
+
+.warehouseServices1 {
+  margin-top: 40px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.warehouse_box {
+  width: 48%;
+}
+
+.warehouseService {
+  padding: 10px 38px;
+  margin-bottom: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+
+.warehouseService p {
+  padding: 22px 0;
+  border-left: 1px solid #C0C9D7;
+  padding-left: 30px;
+  width: 130px;
+}
+
+.service_info h4 {
+  margin-bottom: 8px;
+}
+
+.service_info-addition {
+  color: #222;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.warehouseService_price {
+  width: 300px !important;
+  line-height: 24px;
+  font-size: 16px;
+  color: #1F2428;
+  font-weight: 700;
+}
+
+.shoppingWithOperator {
+  margin-top: 300px;
+  margin-bottom: 150px;
+}
+
+.insuranse {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  padding: 8px 38px;
+  display: flex;
+  align-items: center;
+  border-radius: 16px;
+  background: #fff;
+  box-shadow: 0px 0px 70px 0px rgba(138, 138, 138, 0.10);
+}
+
+.insuranse h4 {
+  width: 50%;
+}
+
+.insuranse h4 {
+  padding: 34px 0;
+  border-right: 1px solid #C0C9D7;
+  font-size: 18px;
+}
+
+.insuranse h5 {
+  padding-left: 20px;
+  font-size: 16px;
+}
+
+.packagingSection {
+  margin-top: 150px;
+  margin-bottom: 150px;
+}
+
+
+.packaging {
+  margin-top: 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.packaging .warehouseService {
+  width: 48%;
+}
+
+.packaging_price {
+  width: 100px !important;
+}
